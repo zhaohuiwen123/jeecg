@@ -999,12 +999,12 @@ function setCookie(name, value){
 }
 
 function createTabId(str){
-　　　　var val="";
-　　　　for(var i = 0; i < str.length; i++){
-　　　　　　　　val += str.charCodeAt(i).toString(16);
-　　　　}
-　　　　return val;
-　　}
+	var val="";
+	for(var i = 0; i < str.length; i++){
+		val += str.charCodeAt(i).toString(16);
+	}
+	return val;
+	}
 // 添加标签
 function addOneTab(subtitle, url, icon) {
 	var indexStyle = getCookie("JEECGINDEXSTYLE");
